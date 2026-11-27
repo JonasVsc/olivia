@@ -24,7 +24,7 @@ DerivePointerAlignment: false
 AlignAfterOpenBracket: Align
 
 # Line wrapping
-ColumnLimit: 200
+ColumnLimit: 80
 BinPackParameters: true
 BinPackArguments: true
 MaxEmptyLinesToKeep: 1
