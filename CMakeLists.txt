@@ -5,6 +5,10 @@ add_subdirectory(thirdparty)
 
 add_executable(${PROJECT_NAME})
 
+set_target_properties(${PROJECT_NAME} PROPERTIES 
+	CXX_STANDARD 20
+)
+
 target_sources(${PROJECT_NAME} PRIVATE
 	src/main.cpp
 )
